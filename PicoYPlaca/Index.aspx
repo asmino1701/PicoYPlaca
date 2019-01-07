@@ -27,11 +27,13 @@
             <div>
                 <asp:Label runat="server" Text="Placa: " />
                 <asp:TextBox ID="txtplaca" runat="server" CssClass="form-control" placeholder="PBC-0123"></asp:TextBox>
+                <asp:Label runat="server" ID="lblvalidarPlaca"/>
             </div>
             <br />
             <div>
                 <asp:Label runat="server" Text="Fecha: " />
                 <asp:TextBox ID="txtFecha" runat="server" CssClass="form-control" placeholder="dd/mm/aaaa"></asp:TextBox>
+                <asp:Label runat="server" ID="LlbValidarFecha"/>
             </div>
             <br />
             <div>
@@ -48,8 +50,7 @@
             <div>
                 <br />
                 <br />
-                <asp:Label ID="lblRespuesta" runat="server"></asp:Label>
-                <
+                <asp:Label ID="lblRespuesta" runat="server"></asp:Label>                
             </div>
             <br />
             <asp:Button CssClass="btn btn-primary" ID="btnConsultar" runat="server" Text="Consultar" OnClientClick="onClick_btnConsultar" />
