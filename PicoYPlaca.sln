@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicoYPlaca", "PicoYPlaca\PicoYPlaca.csproj", "{543D51F1-7D08-4B26-9AC3-09F4FF38710D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{543D51F1-7D08-4B26-9AC3-09F4FF38710D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543D51F1-7D08-4B26-9AC3-09F4FF38710D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543D51F1-7D08-4B26-9AC3-09F4FF38710D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543D51F1-7D08-4B26-9AC3-09F4FF38710D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30804D25-9FBA-4FED-A8FD-D75BD7C445C5}
+	EndGlobalSection
+EndGlobal
