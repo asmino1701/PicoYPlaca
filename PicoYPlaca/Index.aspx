@@ -45,12 +45,16 @@
                     </div>
                 </div>
             </div>
+            <div>
+                <br />
+                <br />
+                <asp:TextBox ID="txtRespuesta" Text="" runat="server" ReadOnly="True"></asp:TextBox>
+            </div>
             <br />
             <asp:Button CssClass="btn btn-primary" ID="btnConsultar" runat="server" Text="Consultar" OnClientClick="onClick_btnConsultar" />
             &nbsp;
             <input class="btn btn-secondary" type="reset" value="Borrar" />
-            <br />
-            <asp:Label runat="server" ID="lblRespuesta"></asp:Label>
+
         </div>
     </form>
 </body>

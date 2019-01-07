@@ -58,6 +58,15 @@ namespace PicoYPlaca {
         protected global::System.Web.UI.WebControls.DropDownList DDMinutos;
         
         /// <summary>
+        /// Control txtRespuesta.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtRespuesta;
+        
+        /// <summary>
         /// Control btnConsultar.
         /// </summary>
         /// <remarks>
@@ -65,14 +74,5 @@ namespace PicoYPlaca {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnConsultar;
-        
-        /// <summary>
-        /// Control lblRespuesta.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblRespuesta;
     }
 }

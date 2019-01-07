@@ -56,3 +56,4 @@ C:\Users\aandr\source\repos\PicoYPlaca\PicoYPlaca\obj\Debug\PicoYPlaca.csproj.Co
 C:\Users\aandr\source\repos\PicoYPlaca\PicoYPlaca\obj\Debug\PicoYPlaca.csproj.CopyComplete
 C:\Users\aandr\source\repos\PicoYPlaca\PicoYPlaca\obj\Debug\PicoYPlaca.dll
 C:\Users\aandr\source\repos\PicoYPlaca\PicoYPlaca\obj\Debug\PicoYPlaca.pdb
+C:\Users\aandr\source\repos\PicoYPlaca\PicoYPlaca\obj\Debug\PicoYPlaca.csprojAssemblyReference.cache

@@ -10,17 +10,22 @@ namespace PicoYPlaca
     {
        public string FechaSeleccionada;
         public bool Dia= false;
-        Auto diaSeleccionado = new Auto();
+        
         DateTime dateValue;
-        public void CompararDia(string fechaIngresada)
+        public void CompararDia(string fechaIngresada, string hora, string minutos, string diaPlaca)
         {
+            Auto diaSeleccionado = new Auto();
+            Tiempo horaSeleccionado = new Tiempo();
+            //string diaSelecto = diaSeleccionado.DiaSemana;
+
             dateValue = DateTime.ParseExact(fechaIngresada, "dd/mm/yyyy", CultureInfo.InvariantCulture);
             FechaSeleccionada = dateValue.ToString("dddd", new CultureInfo("es-ES"));
 
-            if (diaSeleccionado.DiaSemana == FechaSeleccionada)
+            if (diaPlaca == FechaSeleccionada)
             {
                 Dia = true;
             }
+            horaSeleccionado.CalculaHoras(Dia, hora, minutos);
         }
     }
 }
