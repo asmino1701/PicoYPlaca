@@ -8,8 +8,7 @@ namespace PicoYPlaca
 
     public class Auto
     {
-        public string DiaSemana;
-        Fecha DiaPicoPlaca = new Fecha();
+        public string DiaSemana;        
         public void ObtenerPlaca(string placaVehiculo)
         {
             //obtengo el último caracter del string

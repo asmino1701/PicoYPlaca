@@ -40,7 +40,7 @@ namespace PicoYPlaca
             hora = DDHora.SelectedValue;
             minutos = DDMinutos.SelectedValue;
             placaAuto.ObtenerPlaca(placa);
-            fechaSeleccion.ObtenerDia(fecha);
+            fechaSeleccion.CompararDia(fecha);
         }
     }
 }
