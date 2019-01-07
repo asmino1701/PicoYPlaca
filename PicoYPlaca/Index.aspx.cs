@@ -43,12 +43,8 @@ namespace PicoYPlaca
             minutos = DDMinutos.SelectedValue;
             placaAuto.ObtenerPlaca(placa);
             string diaPlaca=placaAuto.DiaSemana;
-            fechaSeleccion.CompararDia(fecha, hora, minutos, diaPlaca);
+            lblRespuesta.Text = fechaSeleccion.CompararDia(fecha, hora, minutos, diaPlaca);          
         }
 
-        public void ActualizarResultado(string mensaje)
-        {           
-            //txtRespuesta.Text = mensaje;
-        }
     }
 }

@@ -12,7 +12,7 @@ namespace PicoYPlaca
         public bool Dia= false;
         
         DateTime dateValue;
-        public void CompararDia(string fechaIngresada, string hora, string minutos, string diaPlaca)
+        public string CompararDia(string fechaIngresada, string hora, string minutos, string diaPlaca)
         {
             Auto diaSeleccionado = new Auto();
             Tiempo horaSeleccionado = new Tiempo();
@@ -25,7 +25,7 @@ namespace PicoYPlaca
             {
                 Dia = true;
             }
-            horaSeleccionado.CalculaHoras(Dia, hora, minutos);
+           return horaSeleccionado.CalculaHoras(Dia, hora, minutos);
         }
     }
 }

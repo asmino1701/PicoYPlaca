@@ -48,7 +48,8 @@
             <div>
                 <br />
                 <br />
-                <asp:TextBox ID="txtRespuesta" Text="" runat="server" ReadOnly="True"></asp:TextBox>
+                <asp:Label ID="lblRespuesta" runat="server"></asp:Label>
+                <
             </div>
             <br />
             <asp:Button CssClass="btn btn-primary" ID="btnConsultar" runat="server" Text="Consultar" OnClientClick="onClick_btnConsultar" />
